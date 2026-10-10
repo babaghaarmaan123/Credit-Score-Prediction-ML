@@ -25,9 +25,9 @@ The project follows a professional data science workflow:
 5. **Balanced Learning:** Implemented `class_weight='balanced'` to solve the **Accuracy Paradox**, forcing the model to correctly identify the minority 'High Credit' group rather than just guessing the majority class.
 
 ## 📈 Key Findings
-- **Model Performance:** The final model achieved an accuracy of `[Insert your Accuracy %]`.
+- **Model Performance:** The final model achieved an accuracy of `[64 %]`.
 - **The Bias-Accuracy Trade-off:** I conducted a controlled experiment adding biased factors (Gender, Age, etc.) to the model. While some biased factors slightly increased raw accuracy, this proved that the model was relying on stereotypes rather than financial behavior.
-- **Top Predictors:** Through **Permutation Importance**, it was found that `[Insert your top feature, e.g., Disposable Income]` was the most influential driver of the credit grade.
+- **Top Predictors:** Through **Permutation Importance**, it was found that `[Gender]` was the most influential driver of the credit grade.
 
 ## ⚖️ Ethical Conclusion
 This project demonstrates that in the financial sector, **accuracy is not the only metric for success.** A model that is 5% more accurate but relies on biased demographic data is ethically and legally unacceptable. This project highlights the necessity of 'Fairness-by-Design' in FinTech.
